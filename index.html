@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Streaming App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">Home</a>
+      <a href="#">Trending</a>
+      <a href="#">Subscriptions</a>
+      <a href="#">Library</a>
+      <a href="#">History</a>
+    </div>
+
+    <div id="main">
+      <div id="header">
+        <span class="openbtn" onclick="openNav()">☰</span>
+        <img src="logo.png" alt="Logo" id="logo" />
+        <p>BlipBox </p> 
+        <p style="color:black">..</p>
+        <input
+          type="text"
+          id="searchInput"
+          onkeyup="searchVideos()"
+          placeholder="Search..."
+        />
+        <div id="nav">
+          <button class="active" onclick="filterVideos('all')">All</button>
+          <button onclick="filterVideos('tech')">Tech</button>
+          <button onclick="filterVideos('gaming')">Gaming</button>
+          <button onclick="filterVideos('music')">Music</button>
+        </div>
+      </div>
+      <div id="videoContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
