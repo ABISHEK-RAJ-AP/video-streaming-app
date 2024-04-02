@@ -1,7 +1,7 @@
 # BlipBox Streaming Web Application
 
 Welcome to BlipBox - a sleek, minimalistic video streaming platform where users can enjoy a curated selection of videos across various categories. Crafted with the latest web technologies, BlipBox delivers a seamless and responsive user experience, free from the complexities of server-side processing.
-
+[live demo](https://abishekbalance.github.io/video-streaming-app/)
 ![](preview1.jpg) 
 #side bar
 ![](preview2.jpg)
